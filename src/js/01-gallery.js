@@ -1,5 +1,5 @@
 import { galleryItems } from './gallery-items';
-import { createMarkup } from '../helpers/createMarkup';
+import { createMarkup } from '../js/helpers/createMarkup';
 
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';

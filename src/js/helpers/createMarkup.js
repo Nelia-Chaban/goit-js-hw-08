@@ -1,4 +1,4 @@
-import { gallery } from '../js/01-gallery';
+import { gallery } from '../01-gallery';
 
 function createMarkup(arr) {
   const markup = arr
@@ -16,7 +16,7 @@ function createMarkup(arr) {
     )
     .join('');
 
-  gallery.insertAdjacentHTML('beforeend', markup);
+  gallery.innerHTML = markup;
 }
 
 export { createMarkup };
