@@ -1,7 +1,7 @@
 import { gallery } from '../01-gallery';
 
 function createMarkup(arr) {
-  const markup = arr
+  return arr
     .map(
       ({ original, preview, description }) => `<li class="gallery__item">
     <a class="gallery__link" href="${original}">
@@ -15,8 +15,6 @@ function createMarkup(arr) {
   </li>`
     )
     .join('');
-
-  gallery.innerHTML = markup;
 }
 
 export { createMarkup };
