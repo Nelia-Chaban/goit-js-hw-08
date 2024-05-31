@@ -16,3 +16,17 @@ img {
   display: block;
   max-width: 100%;
 }
+
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0b7dbe;
+}
+
+a:link {
+  text-decoration: none;
+}

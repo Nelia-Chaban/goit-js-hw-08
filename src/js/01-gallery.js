@@ -3,7 +3,6 @@ import { createMarkup } from '../js/helpers/createMarkup';
 
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-
 const gallery = document.querySelector('.gallery');
 const markUp = createMarkup(galleryItems);
 
